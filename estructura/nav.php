@@ -13,7 +13,7 @@
         <a class="nav-link" href="#">Marcas</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contacto</a>
+        <a class="nav-link" href="../../vistas/contacto/">Contacto</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Acerca de</a>
