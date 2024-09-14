@@ -11,7 +11,7 @@
     https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.18/dist/css/bootstrap-select.min.css
     " rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css"> -->
-    <!-- <link rel="stylesheet" href="../../public/archivos/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="../../public/style/style.css">
     <link rel="stylesheet" href="../../public/archivos/css/font-awesome.css">
     <link rel="stylesheet" href="../../public/archivos/css/AdminLTE.min.css">
     <link rel="stylesheet" href="../../public/archivos/css/_all-skins.min.css">
