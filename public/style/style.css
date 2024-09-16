@@ -1,77 +1,205 @@
-.white{
-    color:#000;
-    background-color:#fff;
+@font-face {
+  font-family: 'montserrat';
+  /* Nombre que asignarás a la fuente */
+  src: url('/public/fonts/Montserrat-Regular.otf') format('truetype');
+  /* Ruta al archivo de la fuente */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'monbold';
+  src: url('fonts/mi_fuente_bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+
+/* fondo */
+
+body::before {
+  content: "";
+  position: fixed; /* Fija el pseudo-elemento en el fondo */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../public/img/fondo.jpg'); /* Ruta de la imagen de fondo */
+  background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  opacity: 0.12; /* Aplica la transparencia deseada */
+  z-index: -1; /* Asegura que la imagen esté detrás del contenido */
+}
+
+
+/* Establecer la fuente global */
+body {
+  font-family: 'montserrat', sans-serif;
+  /* Aplica la fuente personalizada */
+}
+
+.white {
+  color: #000;
+  background-color: #fff;
 }
 
 .btn-facebook {
-    color: #ffffff;
-    -webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-    background-color: #2b4b90;
-    *background-color: #133783;
-    background-image: -moz-linear-gradient(top, #3b5998, #133783);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3b5998), to(#133783));
-    background-image: -webkit-linear-gradient(top, #3b5998, #133783);
-    background-image: -o-linear-gradient(top, #3b5998, #133783);
-    background-image: linear-gradient(to bottom, #3b5998, #133783);
-    background-repeat: repeat-x;
-    border-color: #133783 #133783 #091b40;
-    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3b5998', endColorstr='#ff133783', GradientType=0);
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  color: #ffffff;
+  -webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #2b4b90;
+  *background-color: #133783;
+  background-image: -moz-linear-gradient(top, #3b5998, #133783);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3b5998), to(#133783));
+  background-image: -webkit-linear-gradient(top, #3b5998, #133783);
+  background-image: -o-linear-gradient(top, #3b5998, #133783);
+  background-image: linear-gradient(to bottom, #3b5998, #133783);
+  background-repeat: repeat-x;
+  border-color: #133783 #133783 #091b40;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3b5998', endColorstr='#ff133783', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 
-    .btn-facebook:hover,
-    .btn-facebook:focus,
-    .btn-facebook:active,
-    .btn-facebook.active,
-    .btn-facebook.disabled,
-    .btn-facebook[disabled] {
-        color: #ffffff;
-        background-color: #133783 !important;
-        *background-color: #102e6d !important;
-    }
+.btn-facebook:hover,
+.btn-facebook:focus,
+.btn-facebook:active,
+.btn-facebook.active,
+.btn-facebook.disabled,
+.btn-facebook[disabled] {
+  color: #ffffff;
+  background-color: #133783 !important;
+  *background-color: #102e6d !important;
+}
 
-    .btn-facebook:active,
-    .btn-facebook.active {
-        background-color: #0d2456 \9 !important;
-    }
+.btn-facebook:active,
+.btn-facebook.active {
+  background-color: #0d2456 \9 !important;
+}
 
-
-    .carousel-inner {
-      text-align: center;
-    }
-    .carousel-item img {
-      display: block;
-      margin: 0 auto;
-      max-width: 100%;
-      height: auto;
-    }
-    .carousel-control-prev,
-    .carousel-control-next {
-      width: 5%;
-    }
-
-    .carousel-caption {
-      position: absolute;
-      bottom: 20px;
-      left: 50%;
-/*      transform: translateX(-50%);*/
-      text-align: center;
-      color: white;
-      background: rgba(0, 0, 0, 0);
-      padding: 10px;
-      border-radius: 10px;
-      font-size: 2rem;
-    }
+/* carousel */
 
 
-    .card-img-left {
-      width: 100%; /* Ajusta el ancho de la imagen si es necesario */
-      height: auto; /* Mantiene la proporción de la imagen */
-    }
-    .card-body {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
+/* Ajustar el tamaño del carrusel */
+.carousel {
+  width: 80%;
+  /* Ajusta el ancho del carrusel según tus necesidades */
+  max-width: 1300px;
+  /* Establece un ancho máximo si es necesario */
+  margin: 0 auto;
+  /* Centra el carrusel horizontalmente */
+}
+
+/* Redondear los bordes de las imágenes del carrusel */
+.carousel-inner img {
+  width: 100%;
+  /* Asegura que la imagen ocupe el 100% del contenedor */
+  height: auto;
+  /* Mantiene la proporción de la imagen */
+  border-radius: 15px;
+  /* Aplica bordes redondeados */
+}
+
+/* Opcional: ajustar los controles del carrusel para que se vean bien */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  /* Ajusta el ancho de los controles */
+  height: 100%;
+  /* Asegura que los controles cubran la altura del carrusel */
+}
+
+
+.carousel-inner {
+  text-align: center;
+}
+
+.carousel-item img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%; /* Ajusta la posición vertical */
+  left: 50%; /* Ajusta la posición horizontal */
+  transform: translate(-50%, -50%); /* Centra el texto en ambas direcciones */
+  text-align: center; /* Alinea el texto al centro */
+  color: white; /* Color del texto */
+  /* background: rgba(0, 0, 0, 0.5); Fondo semitransparente para mejorar la legibilidad del texto */
+  padding: 10px; /* Espaciado alrededor del texto */
+  border-radius: 10px; /* Bordes redondeados del fondo */
+  font-size: 2rem; /* Tamaño de fuente */
+}
+
+
+/* quienesomos */
+
+.cardinfo {
+  width: 90%; /* Ajusta el ancho del card */
+  max-width: 1300px; /* Establece un ancho máximo */
+  margin: 0 auto; /* Centra el card horizontalmente */
+  border-radius: 10px; /* Redondea los bordes de la tarjeta */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil */
+  background-color: white;
+}
+
+/* Opcional: redondear los bordes de la imagen */
+.cardinfo-img-left {
+  border-radius: 50%; /* Hace la imagen circular */
+  width: 120px; /* Tamaño específico de la imagen, ajusta según tus necesidades */
+  height: 120px; /* Asegura que la altura sea igual al ancho para mantener la forma circular */
+  object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del contenedor circular */
+  margin: 70px; /* Ajusta el margen alrededor de la imagen */
+  margin-top: 20px; /* Reduce el espacio en la parte superior de la imagen */
+}
+
+.col-md-4 {
+  display: flex; /* Usa flexbox para alinear la imagen verticalmente */
+  align-items: flex-start; /* Alinea la imagen en la parte superior de la columna */
+  padding: 15px; /* Añade espacio alrededor del contenido de la columna */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+  /* Estilo para las tarjetas */
+.card{
+  width: 80%; /* Ajusta el ancho del card */
+  max-width: 1300px; /* Establece un ancho máximo */
+  margin: 0 auto; /* Centra el card horizontalmente */
+  border-radius: 10px; /* Redondea los bordes de la tarjeta */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil */
+  overflow: hidden; /* Asegura que el contenido no sobresalga */
+}
+
+/* Estilo para las imágenes centradas dentro de las tarjetas */
+.card-img-center {
+  display: block; /* Hace que la imagen se comporte como un bloque */
+  margin: 20px auto; /* Centra la imagen horizontalmente y añade espacio alrededor */
+  max-width: 100%; /* Asegura que la imagen no se expanda más allá de su contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  border-radius: 10px; /* Redondea los bordes de la imagen */
+}
+
+/* Estilo para los botones primary */
+.btn-primary {
+  background-color: #BC8741; /* Color de fondo del botón */
+  border-color: #BC8741; /* Color del borde del botón */
+}
+
+.btn-primary:hover {
+  background-color: #a3743b; /* Color de fondo al pasar el mouse sobre el botón */
+  border-color: #a3743b; /* Color del borde al pasar el mouse sobre el botón */
+}

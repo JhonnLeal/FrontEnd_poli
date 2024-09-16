@@ -1,8 +1,9 @@
-<?php 
+<?php
 require '../../estructura/header.php';
 include '../../estructura/nav.php';
 ?>
 
+<br>
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -11,21 +12,21 @@ include '../../estructura/nav.php';
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../../public/img/Screenshot_1.png" alt="...">
+      <img src="../../public/img/1.jpg" alt="...">
       <div class="carousel-caption">
-        Pruebas de software empresarial.
+        Pruebas de software empresarial
       </div>
     </div>
     <div class="carousel-item">
-      <img src="../../public/img/Screenshot_2.png" class="d-block w-10" alt="...">
+      <img src="../../public/img/1.jpg" class="d-block w-10" alt="...">
       <div class="carousel-caption" style="align-content: center;">
-        Software a la medida de su empresa.
-      </div>      
+        Software a la medida de su empresa
+      </div>
     </div>
     <div class="carousel-item">
-      <img src="../../public/img/Screenshot_3.png" class="d-block w-10" alt="...">
+      <img src="../../public/img/1.jpg" class="d-block w-10" alt="...">
       <div class="carousel-caption">
-        Expertos es soluciones.
+        Expertos es soluciones
       </div>
     </div>
   </div>
@@ -42,17 +43,17 @@ include '../../estructura/nav.php';
 <div class="container mt-5">
   <div class="row">
     <div class="col-12">
-      <div class="card">
+      <div class="cardinfo">
         <div class="row no-gutters">
-          <div class="col-md-4">
-            <img src="../../public/img/ceo.png" class="card-img-left" alt="Card image cap">
+          <div class="col-md-3">
+            <img src="../../public/img/ceo.jpg" class="cardinfo-img-left" alt="Card image cap">
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h4 class="card-title">¿Quiénes somos?</h4>
-              <p class="card-text">"Somos una empresa colombiana, Technology Solutions, nos especializamos en el diseño y desarrollo de software avanzado para empresas, hospitales y entidades bancarias. A través de un enfoque innovador y personalizado, ofrecemos soluciones tecnológicas seguras y eficientes que optimizan procesos y potencian el rendimiento.
-              Permítanos convertir sus desafíos en oportunidades. Contáctenos para descubrir cómo nuestras soluciones pueden llevar su organización al siguiente nivel de excelencia."</p>
-              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              <p class="card-text">"En Technology Solutions, nos especializamos en el diseño y desarrollo de software avanzado para empresas, hospitales y entidades bancarias. A través de un enfoque innovador y personalizado, ofrecemos soluciones tecnológicas seguras y eficientes que optimizan procesos y potencian el rendimiento.
+
+                Permítanos convertir sus desafíos en oportunidades. Contáctenos para descubrir cómo nuestras soluciones pueden llevar su organización al siguiente nivel de excelencia."</p>
             </div>
           </div>
         </div>
@@ -65,9 +66,9 @@ include '../../estructura/nav.php';
   <div class="row">
     <div class="col-sm-6">
       <div class="card">
-        <div class="col-md-6">
-          <img src="../../public/img/marcas.png" class="card-img-center" alt="Card image cap">
-        </div>        
+        <div class="col-md-8">
+          <img src="../../public/img/marcas.png" class="card-img-center">
+        </div>
         <div class="card-body">
           <h5 class="card-title">Estas marcas confían en nosotros</h5>
           <p class="card-text">Con la confianza de empresas lideres en sus campos y que marcan nuestros servicios con excelencia.</p>
@@ -77,9 +78,9 @@ include '../../estructura/nav.php';
     </div>
     <div class="col-sm-6">
       <div class="card">
-        <div class="col-md-6">
-          <img src="../../public/img/leng.png" class="card-img-center" alt="Card image cap">
-        </div>        
+        <div class="col-md-8">
+          <img src="../../public/img/leng.png" class="card-img-center">
+        </div>
         <div class="card-body">
           <h5 class="card-title">Aliados tecnologicos</h5>
           <p class="card-text">Nuestros aliados tecnológicos son socios clave que fortalecen nuestras soluciones con innovación y excelencia.</p>
@@ -88,12 +89,12 @@ include '../../estructura/nav.php';
       </div>
     </div>
   </div>
-</div>  
+</div>
 
 
 
 
-<?php 
+<?php
 require '../../estructura/footer.php';
 ?>
 <script type="text/javascript" src="../../public/js/home.js"></script>
