@@ -203,3 +203,59 @@ body {
   background-color: #a3743b; /* Color de fondo al pasar el mouse sobre el botón */
   border-color: #a3743b; /* Color del borde al pasar el mouse sobre el botón */
 }
+
+/* Estilos para centrar verticalmente y alinear a la derecha */
+.container {
+  display: flex;
+  justify-content: flex-end; /* Alinea el contenido a la derecha */
+  align-items: center; /* Centra verticalmente */
+  height: 100vh; /* Ocupa toda la altura de la pantalla */
+}
+
+.row {
+  width: 100%; /* Asegura que la fila ocupe todo el ancho del contenedor */
+}
+
+.col-md-6 {
+  display: flex;
+  justify-content: flex-end; /* Alinea el contenido a la derecha */
+}
+
+.panel {
+  border: 2px solid #8B4513; /* Borde café */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  padding: 20px; /* Espacio interno */
+  background-color: #f9f9f9; /* Fondo claro */
+  max-width: 500px; /* Ancho máximo del panel */
+  width: 100%; /* Ancho completo del contenedor */
+}
+
+.panel-heading {
+  background-color: #fffcfa; /* Encabezado color café */
+  color: rgba(236, 112, 10, 0.692); /* Texto del encabezado en blanco */
+  padding: 10px;
+  border-top-left-radius: 10px; /* Bordes redondeados superiores */
+  border-top-right-radius: 10px;
+}
+
+.panel-body {
+  padding: 15px;
+}
+
+h3.panel-title {
+  margin: 0;
+  font-size: 45px; /* Tamaño grande para el título */
+  text-align: center; /* Centrando el título */
+}
+
+.btn-primary {
+  background-color: #8B4513; /* Botón color café */
+  border-color: #8B4513;
+}
+
+.btn-secondary {
+  background-color: #a0522d; /* Otro tono de café para el botón de registro */
+  border-color: #a0522d;
+}
+
