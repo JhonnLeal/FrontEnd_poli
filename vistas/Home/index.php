@@ -47,7 +47,7 @@ include '../../estructura/nav.php';
           <div class="col-md-3">
             <img src="../../public/img/ceo.jpg" class="cardinfo-img-left" alt="Card image cap">
           </div>
-          <div class="col-md-8">
+          <div class="col-md-8" id="acercade">
             <div class="card-body">
               <h4 class="card-title">¿Quiénes somos?</h4>
               <p class="card-text">"En Technology Solutions, nos especializamos en el diseño y desarrollo de software avanzado para empresas, hospitales y entidades bancarias. A través de un enfoque innovador y personalizado, ofrecemos soluciones tecnológicas seguras y eficientes que optimizan procesos y potencian el rendimiento.
@@ -91,4 +91,3 @@ include '../../estructura/nav.php';
 <?php
 require '../../estructura/footer.php';
 ?>
-<script type="text/javascript" src="../../public/js/home.js"></script>

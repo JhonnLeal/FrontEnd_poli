@@ -5,21 +5,10 @@
   </a>
   <div class="collapse navbar-collapse">
     <ul class="navbar-nav ml-auto">
+
       <li class="nav-item">
-        <a class="nav-link" href="../../vistas/admin/">Servicios</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Marcas</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="../../vistas/contacto/">Contacto</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#acercade">Acerca de</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="../login/login.php">
-          Ingreso <img src="../../public/img/log1.png" class="icono-ingreso" style="width: 20px; height: 20px; margin-left: 8px;" alt="Icono de ingreso"> <!-- Icono después del texto -->
+        <a class="nav-link" href="../Home/index.php">
+          Volver <img src="../../public/img/back1.png" class="icono-ingreso" style="width: 20px; height: 20px; margin-left: 8px;" alt="Icono de ingreso"> <!-- Icono después del texto -->
         </a>
       </li>
     </ul>
@@ -65,6 +54,6 @@
   /* Cambiar la imagen cuando se hace hover sobre el enlace */
   .nav-item .nav-link:hover .icono-ingreso {
     /* Cambia la imagen cuando se hace hover */
-    content: url('../../public/img/log2.png');
+    content: url('../../public/img/back2.png');
   }
 </style>

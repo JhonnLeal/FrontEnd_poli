@@ -30,7 +30,7 @@ function login() {
             window.location.href = "../vistas/admin/";
         } else {
             // Redirigir a la vista del cliente
-            window.location.href = "../vistas/cliente/";
+            window.location.href = "../cliente/";
         }
     } else {
         // Mostrar un mensaje de error si las credenciales son incorrectas
