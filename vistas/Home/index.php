@@ -39,8 +39,7 @@ include '../../estructura/nav.php';
     <span class="sr-only">Next</span>
   </button>
 </div>
-
-<div class="container mt-5">
+<div class="container mt-2">
   <div class="row">
     <div class="col-12">
       <div class="cardinfo">
@@ -61,8 +60,7 @@ include '../../estructura/nav.php';
     </div>
   </div>
 </div>
-
-<div class="container mt-5">
+<div class="container mt-2">
   <div class="row">
     <div class="col-sm-6">
       <div class="card">
@@ -90,10 +88,6 @@ include '../../estructura/nav.php';
     </div>
   </div>
 </div>
-
-
-
-
 <?php
 require '../../estructura/footer.php';
 ?>
