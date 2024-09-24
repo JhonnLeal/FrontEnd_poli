@@ -3,7 +3,7 @@ require '../../estructura/header.php';
 include '../../estructura/nav.php';
 ?>
 
-<main>
+<main> 
     <article class="container">
         <div class="row">
 
