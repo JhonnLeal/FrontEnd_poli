@@ -27,7 +27,7 @@ function login() {
     if (user) {
         if (user.role === "administrador") {
             // Redirigir al dashboard del administrador
-            window.location.href = "../vistas/admin/";
+            window.location.href = "../admin/";
         } else {
             // Redirigir a la vista del cliente
             window.location.href = "../cliente/";
