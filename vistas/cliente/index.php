@@ -2,7 +2,7 @@
 require '../../estructura/header.php';
 include '../../estructura/navuser.php';
 ?>
-
+<!-- tabla de casos -->
 <div class="container mt-3 text-center">
     <h2 style="color: #BC8741">Estado Actual de Casos</h2><br>
     <div class="table-responsive">

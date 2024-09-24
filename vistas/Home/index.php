@@ -64,7 +64,7 @@ include '../../estructura/nav.php';
   </div>
 </div>
 
-<!-- secci+on -->
+<!-- sección -->
 <div class="container mt-2">
   <div class="row">
     <div class="col-sm-6">

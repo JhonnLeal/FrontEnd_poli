@@ -18,7 +18,7 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="../Home/index.php">
+        <a class="nav-link" href="../login/login.php">
           Usuario 
           <img src="../../public/img/user1.png" class="icono-ingreso" style="width: 20px; height: 20px; margin-left: 8px;" alt="Icono de ingreso"> <!-- Icono después del texto -->
         </a>
