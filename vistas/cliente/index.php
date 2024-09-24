@@ -60,7 +60,7 @@ require '../../estructura/header.php';
 </style>
 
 <div class="container mt-5">
-    <h2>Tabla con Botones de Switch</h2>
+    <h2>Estado Actual de Casos</h2>
     <table class="table table-striped">
         <thead>
             <tr>
