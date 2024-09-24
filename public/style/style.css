@@ -278,3 +278,24 @@ h3.panel-title {
   vertical-align: middle; /* Alinea la imagen verticalmente */
 }
 
+
+.form-group .form-control {
+  padding-left: 2.375rem;
+}
+.form-group{
+position:relative;
+}
+.form-group .form-control-icon {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: rgb(188, 135, 65);
+  right:0;
+  top: 0px;
+  border-radius: 2.25rem;
+}
