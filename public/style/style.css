@@ -268,5 +268,13 @@ h3.panel-title {
 }
 
 .margin-space {
-  margin-bottom: 10px;
+  margin-bottom: 10px; /* Espacio entre elementos */
+  list-style: none; /* Quita los puntos de la lista */
 }
+.icon-contact {
+  width: 20px; /* Ajusta el tamaño de la imagen */
+  height: 20px; /* Ajusta el tamaño de la imagen */
+  margin-right: 8px; /* Espacio entre la imagen y el texto */
+  vertical-align: middle; /* Alinea la imagen verticalmente */
+}
+

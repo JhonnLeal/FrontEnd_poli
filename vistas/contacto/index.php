@@ -45,11 +45,21 @@ include '../../estructura/nav.php';
                 <hr>
                 <div class="login-main">
                     <ull>
-                        <li class = "margin-space">Teléfono</li>
-                        <li class = "margin-space">Whatsapp</li>
-                        <li class = "margin-space">Facebook</li>
-                        <li class = "margin-space">Instagram</li>
-                        <li class = "margin-space">Email </li>
+                        <li class="margin-space">
+                            <img src="https://via.placeholder.com/20?text=📞" alt="Teléfono" class="icon-contact">Teléfono
+                        </li>
+                        <li class="margin-space">
+                            <img src="https://via.placeholder.com/20?text=📱" alt="Whatsapp" class="icon-contact">Whatsapp
+                        </li>
+                        <li class="margin-space">
+                            <img src="https://via.placeholder.com/20?text=📘" alt="Facebook" class="icon-contact">Facebook
+                        </li>
+                        <li class="margin-space">
+                            <img src="https://via.placeholder.com/20?text=📸" alt="Instagram" class="icon-contact">Instagram
+                        </li>
+                        <li class="margin-space">
+                            <img src="https://via.placeholder.com/20?text=✉️" alt="Email" class="icon-contact">Email
+                        </li>
                     </ull>
 
 
