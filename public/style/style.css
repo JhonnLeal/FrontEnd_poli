@@ -1,16 +1,10 @@
 @font-face {
   font-family: 'montserrat';
   /* Nombre que asignarás a la fuente */
-  src: url('/public/fonts/Montserrat-Regular.otf') format('truetype');
+  src: url('/public/fonts/Montserrat-ExtraLight.otf') format('truetype');
   /* Ruta al archivo de la fuente */
   font-weight: normal;
   font-style: normal;
-}
-
-@font-face {
-  font-family: 'monbold';
-  src: url('fonts/mi_fuente_bold.ttf') format('truetype');
-  font-weight: bold;
 }
 
 
@@ -38,75 +32,28 @@ body {
   /* Aplica la fuente personalizada */
 }
 
-.white {
-  color: #000;
-  background-color: #fff;
-}
-
-.btn-facebook {
-  color: #ffffff;
-  -webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #2b4b90;
-  background-color: #133783;
-  background-image: -moz-linear-gradient(top, #3b5998, #133783);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3b5998), to(#133783));
-  background-image: -webkit-linear-gradient(top, #3b5998, #133783);
-  background-image: -o-linear-gradient(top, #3b5998, #133783);
-  background-image: linear-gradient(to bottom, #3b5998, #133783);
-  background-repeat: repeat-x;
-  border-color: #133783 #133783 #091b40;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3b5998', endColorstr='#ff133783', GradientType=0);
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-}
-
-.btn-facebook:hover,
-.btn-facebook:focus,
-.btn-facebook:active,
-.btn-facebook.active,
-.btn-facebook.disabled,
-.btn-facebook[disabled] {
-  color: #ffffff;
-  background-color: #133783 !important;
-  background-color: #102e6d !important;
-}
-
-.btn-facebook:active,
-.btn-facebook.active {
-  background-color: #0d2456 \9 !important;
-}
 
 /* carousel */
 
-
 /* Ajustar el tamaño del carrusel */
 .carousel {
-  width: 80%;
-  /* Ajusta el ancho del carrusel según tus necesidades */
-  max-width: 1300px;
-  /* Establece un ancho máximo si es necesario */
-  margin: 0 auto;
-  /* Centra el carrusel horizontalmente */
+  width: 80%;/* Ajusta el ancho del carrusel según tus necesidades */
+  max-width: 1300px;/* Establece un ancho máximo si es necesario */
+  margin: 0 auto;/* Centra el carrusel horizontalmente */
 }
 
 /* Redondear los bordes de las imágenes del carrusel */
 .carousel-inner img {
-  width: 100%;
-  /* Asegura que la imagen ocupe el 100% del contenedor */
-  height: auto;
-  /* Mantiene la proporción de la imagen */
-  border-radius: 15px;
-  /* Aplica bordes redondeados */
+  width: 100%;/* Asegura que la imagen ocupe el 100% del contenedor */
+  height: auto;/* Mantiene la proporción de la imagen */
+  border-radius: 15px;/* Aplica bordes redondeados */
 }
 
 /* Opcional: ajustar los controles del carrusel para que se vean bien */
 .carousel-control-prev,
 .carousel-control-next {
-  width: 5%;
-  /* Ajusta el ancho de los controles */
-  height: 100%;
-  /* Asegura que los controles cubran la altura del carrusel */
+  width: 5%;/* Ajusta el ancho de los controles */
+  height: 100%;/* Asegura que los controles cubran la altura del carrusel */
 }
 
 
@@ -139,9 +86,7 @@ body {
   font-size: 2rem; /* Tamaño de fuente */
 }
 
-
-/* quienesomos */
-
+/* Quienesomos / Acerca de */
 .cardinfo {
   width: 90%; /* Ajusta el ancho del card */
   max-width: 1300px; /* Establece un ancho máximo */
@@ -151,7 +96,7 @@ body {
   background-color: white;
 }
 
-/* Opcional: redondear los bordes de la imagen */
+/* Redondear los bordes de la imagen */
 .cardinfo-img-left {
   border-radius: 50%; /* Hace la imagen circular */
   width: 120px; /* Tamaño específico de la imagen, ajusta según tus necesidades */
@@ -177,125 +122,75 @@ body {
   /* Estilo para las tarjetas */
 .card{
   width: 80%; /* Ajusta el ancho del card */
-  max-width: 1300px; /* Establece un ancho máximo */
+  max-width: 1400px; /* Establece un ancho máximo */
   margin: 0 auto; /* Centra el card horizontalmente */
   border-radius: 10px; /* Redondea los bordes de la tarjeta */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil */
   overflow: hidden; /* Asegura que el contenido no sobresalga */
 }
 
-/* Estilo para las imágenes centradas dentro de las tarjetas */
-.card-img-center {
-  display: block; /* Hace que la imagen se comporte como un bloque */
-  margin: 20px auto; /* Centra la imagen horizontalmente y añade espacio alrededor */
-  max-width: 100%; /* Asegura que la imagen no se expanda más allá de su contenedor */
-  height: auto; /* Mantiene la proporción de la imagen */
-  border-radius: 10px; /* Redondea los bordes de la imagen */
-}
-
-/* Estilo para los botones primary */
 .btn-primary {
-  background-color: #BC8741; /* Color de fondo del botón */
-  border-color: #BC8741; /* Color del borde del botón */
+  background-color: #BC8741 !important; /* Color de fondo del botón */
+  border-color: #BC8741 !important; /* Color del borde del botón */
+  color: white !important; /* Color del texto */
+  outline: none !important; /* Eliminar el contorno predeterminado */
 }
 
 .btn-primary:hover {
-  background-color: #a3743b; /* Color de fondo al pasar el mouse sobre el botón */
-  border-color: #a3743b; /* Color del borde al pasar el mouse sobre el botón */
+  background-color: #a3743b !important; /* Color de fondo al pasar el mouse sobre el botón */
+  border-color: #a3743b !important; /* Color del borde al pasar el mouse sobre el botón */
 }
 
-/* Estilos para centrar verticalmente y alinear a la derecha */
-.container {
+.btn-primary:focus, .btn-primary:active {
+  background-color: #8b6033 !important; /* Color de fondo al hacer clic */
+  border-color: #8b6033 !important; /* Color del borde al hacer clic */
+  outline: none !important; /* Eliminar el contorno */
+  box-shadow: none !important; /* Eliminar cualquier sombreado */
+}
+
+
+/* tabla de casos */
+
+
+.custom-table {
+  border: 2px solid #BC8741; /* Borde de la tabla */
+  width: 80%; /* Para centrar la tabla con margin */
+}
+
+.custom-table th, .custom-table td {
+  border: 1px solid #BC8741; /* Bordes de las columnas */
+  text-align: center; /* Centrar el contenido de las celdas */
+  background-color: white;
+}
+
+.custom-table th {
+  background-color: #BC8741; /* Color de fondo para los encabezados */
+  color: white;
+}
+
+.table-responsive {
   display: flex;
-  justify-content: flex-end; /* Alinea el contenido a la derecha */
-  align-items: center; /* Centra verticalmente */
-  height: 100vh; /* Ocupa toda la altura de la pantalla */
+  justify-content: center; /* Centrando la tabla */
 }
 
-.row {
-  width: 100%; /* Asegura que la fila ocupe todo el ancho del contenedor */
+/* Estilo por defecto cuando el switch está desactivado */
+.custom-control-input:checked ~ .custom-control-label::before {
+  background-color: green !important; /* Verde cuando está activado */
+  border-color: green !important;
 }
 
-.col-md-6 {
-  display: flex;
-  justify-content: flex-end; /* Alinea el contenido a la derecha */
+/* Estilo cuando el switch está desactivado */
+.custom-control-input ~ .custom-control-label::before {
+  background-color: red !important; /* Rojo cuando está desactivado */
+  border-color: red !important;
 }
 
-.panel {
-  border: 2px solid #8B4513; /* Borde café */
-  border-radius: 10px; /* Bordes redondeados */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
-  padding: 20px; /* Espacio interno */
-  background-color: #f9f9f9; /* Fondo claro */
-  max-width: 500px; /* Ancho máximo del panel */
-  width: 100%; /* Ancho completo del contenedor */
+/* Estilo para el thumb cuando el switch está activado */
+.custom-control-input:checked ~ .custom-control-label::after {
+  background-color: white !important; /* Bolita blanca cuando está activado */
 }
 
-.panel-heading {
-  background-color: #fffcfa; /* Encabezado color café */
-  color: rgba(236, 112, 10, 0.692); /* Texto del encabezado en blanco */
-  padding: 10px;
-  border-top-left-radius: 10px; /* Bordes redondeados superiores */
-  border-top-right-radius: 10px;
-}
-
-.panel-body {
-  padding: 15px;
-}
-
-h3.panel-title {
-  margin: 0;
-  font-size: 45px; /* Tamaño grande para el título */
-  text-align: center; /* Centrando el título */
-}
-
-.btn-primary {
-  background-color: #8B4513; /* Botón color café */
-  border-color: #8B4513;
-}
-
-.btn-secondary {
-  background-color: #a0522d; /* Otro tono de café para el botón de registro */
-  border-color: #a0522d;
-}
-
-.subtitle-contact-section {
-  font-weight: 700;
-  font-style: normal;
-  color: rgb(188, 135, 65);
-  font-kerning: none;
-  text-decoration: none;
-}
-
-.margin-space {
-  margin-bottom: 10px; /* Espacio entre elementos */
-  list-style: none; /* Quita los puntos de la lista */
-}
-.icon-contact {
-  width: 20px; /* Ajusta el tamaño de la imagen */
-  height: 20px; /* Ajusta el tamaño de la imagen */
-  margin-right: 8px; /* Espacio entre la imagen y el texto */
-  vertical-align: middle; /* Alinea la imagen verticalmente */
-}
-
-
-.form-group .form-control {
-  padding-left: 2.375rem;
-}
-.form-group{
-position:relative;
-}
-.form-group .form-control-icon {
-  position: absolute;
-  z-index: 2;
-  display: block;
-  width: 2.375rem;
-  height: 2.375rem;
-  line-height: 2.375rem;
-  text-align: center;
-  pointer-events: none;
-  color: rgb(188, 135, 65);
-  right:0;
-  top: 0px;
-  border-radius: 2.25rem;
+/* Estilo para el thumb cuando el switch está desactivado */
+.custom-control-input ~ .custom-control-label::after {
+  background-color: white !important; /* Bolita blanca cuando está desactivado */
 }
